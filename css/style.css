@@ -26,7 +26,7 @@ p {
 }
 
 header {
-  padding: 2.5rem 0;
+  padding: 2rem 0 3rem;
 }
 
 header a {
@@ -67,9 +67,9 @@ header span {
   top: 0;
   padding: 1rem;
   color: #fefefe;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  background: rgba(#303030, 0.35);
   width: 100%;
+  border-radius: 5px;
 }
 
 .container .content-wrapper .title {
