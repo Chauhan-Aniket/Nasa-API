@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #303030;
+  background: #fefefe;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.45px;
+}
+
+main {
+  margin: 0 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+:is(header, .container, footer) {
+  margin: auto;
+  max-width: 672px;
+}
+
+header {
+  padding: 2.5rem 0;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a h2 {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Major Mono Display", monospace;
+  letter-spacing: 1px;
+}
+
+header span {
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100px;
+  height: 1px;
+  background: #303030;
+}
+
+.container h3 {
+  margin-bottom: 1rem;
+}
+
+.container .content-wrapper {
+  position: relative;
+}
+
+.container .content-wrapper .wrapper {
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  color: #fefefe;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  width: 100%;
+}
+
+.container .content-wrapper .title {
+  font-family: "Cormorant Infant", serif;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.container .content-wrapper .date {
+  font-size: 0.75rem;
+  font-family: "Major Mono Display", monospace;
+  text-transform: lowercase;
+}
+
+.container .content-wrapper img {
+  position: relative;
+  margin-bottom: 1rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: slateblue;
+}
+/*# sourceMappingURL=style.css.map */
